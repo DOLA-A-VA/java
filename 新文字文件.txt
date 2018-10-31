@@ -1,0 +1,49 @@
+import java.util.*;
+public class test1031 {
+	test1031(){
+		SOP("empty\n");
+	}
+	test1031(int g){
+		SOP(g+"empty\n");
+	}
+    public static void main(String[] args) {
+    	test1031 ll = new test1031(777);
+	//	int  hh = rInt();
+   //     SOP( "" + hh );
+   //     SOP( hh );
+        
+        juice(  );
+        juice( "banana" );
+        juice( "Ä«ªG", 5 );
+        juice( "Ä«ªG", "ice" );
+        juice( "©_²§ªG", 3, "ice" );
+    }
+    
+    static void juice(){
+    	SOP( "1ªMªG¥Ä\n" );
+    }
+    static void juice( String s ){
+    	SOP( "1ªM"+s+"¥Ä\n" );
+    }    
+    static void juice( String s, int n ){
+    	SOP( n+"ªM"+s+"¥Ä\n" );
+    } 
+    static void juice( String s, String s2 ){
+    	SOP( "1ªM"+s2+"ªº"+s+"¥Ä\n" );
+    } 
+    static void juice( String s, int n, String s2 ){
+    	SOP( n+"ªM"+s2+"ªº"+s+"¥Ä\n" );
+    }     	    	    
+    
+    static int rInt(){
+    	Scanner sc = new Scanner( System.in );
+    	return sc.nextInt();
+    }
+    
+    static void SOP( int s ){
+    	System.out.print( ""+s );
+    }
+    static void SOP( String s ){
+    	System.out.print( s );
+    }
+}
